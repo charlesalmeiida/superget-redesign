@@ -2,6 +2,8 @@ import React from "react"
 import logo from "../assets/img/logo.png"
 import { ItemNav } from "./ItemNav"
 import { BtnPrimary } from "./BtnPrimary"
+import iconLogin from "../assets/svg/icon-login.svg"
+import iconCart from "../assets/svg/icon-cart.svg"
 
 export class Navbar extends React.Component {
   render() {
@@ -25,6 +27,14 @@ export class Navbar extends React.Component {
           </nav>
           <div className="btns">
             <BtnPrimary textBtn={"Pedir maquininha"} />
+            <div className="icons-header">
+              <a href="/" className="icon-login">
+                <img src={iconLogin} alt="" />
+              </a>
+              <a href="/" className="icon-cart">
+                <img src={iconCart} alt="" />
+              </a>
+            </div>
           </div>
         </div>
       </header>

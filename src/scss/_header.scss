@@ -1,13 +1,14 @@
 header {
   padding: 1.6rem 0;
   .container {
-    @include flexSpaceBetween;
+    @include flexTotalCenter;
     .logo {
       max-width: 13.4rem;
     }
     nav {
       @include flexTotalCenter;
       .center-nav {
+        margin-left: 7.9rem;
         @include flexTotalCenter;
         gap: 3.6rem;
         &::after {
@@ -32,6 +33,23 @@ header {
             &:hover {
               color: $gray-03;
             }
+          }
+        }
+      }
+    }
+    .btns {
+      @include flexTotalCenter;
+      gap: 3.1rem;
+      margin-left: 7.4rem;
+      .icons-header {
+        display: flex;
+        justify-content: flex-end;
+        gap: 1.6rem;
+        img {
+          max-width: 3.6rem;
+          transition: filter 0.3s ease;
+          &:hover {
+            filter: brightness(0.7);
           }
         }
       }
