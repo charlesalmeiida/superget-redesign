@@ -1,0 +1,40 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  color: $gray-01;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 7.2rem;
+  letter-spacing: -0.144rem;
+}
+
+h2 {
+  font-size: 5.6rem;
+  letter-spacing: -0.112rem;
+}
+
+h3 {
+  font-size: 4.8rem;
+  font-weight: 800;
+  letter-spacing: -0.096rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: -0.036rem;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: -0.032rem;
+}
