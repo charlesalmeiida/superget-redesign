@@ -11,3 +11,18 @@
     background-color: $gray-02;
   }
 }
+
+.btn-secondary {
+  border-radius: 120px;
+  background-color: $white;
+  padding: 1.2rem 7.4rem;
+  color: $primary-color-default;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.032rem;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: $secondary-color;
+    color: $gray-01;
+  }
+}
