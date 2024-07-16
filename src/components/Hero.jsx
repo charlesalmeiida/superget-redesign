@@ -2,6 +2,7 @@ import React from "react"
 import logoAppSuperGet from "../assets/svg/logo-app-superget.svg"
 import imgHero from "../assets/img/img-hero.png"
 import { BtnSecondary } from "./BtnSecondary"
+import imgCalendar from "../assets/svg/icon-calendar.svg"
 
 export class Hero extends React.Component {
   render() {
@@ -41,9 +42,19 @@ export class Hero extends React.Component {
               <p>no crédito à vista e no débito</p>
               <ul>
                 <li>Conexão bluetooth</li>
-                <li>Realize transações <br /> pelo celular</li>
-                <li>Venda pelo app <br /> SuperGet Mobile</li>
+                <li>
+                  Realize transações <br /> pelo celular
+                </li>
+                <li>
+                  Venda pelo app <br /> SuperGet Mobile
+                </li>
               </ul>
+            </div>
+            <div className="bottom-detail">
+              <img src={imgCalendar} alt="" />
+              <p>
+                Receba em até <strong>2 dias úteis</strong> na sua conta
+              </p>
             </div>
           </div>
         </div>

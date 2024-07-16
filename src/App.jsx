@@ -2,6 +2,7 @@ import React from "react"
 import "./css/main.min.css"
 import { Navbar } from "./components/Navbar"
 import { Hero } from "./components/Hero"
+import { Benefits } from "./components/Benefitx"
 
 class App extends React.Component {
   render() {
@@ -9,6 +10,7 @@ class App extends React.Component {
       <div>
         <Navbar />
         <Hero />
+        <Benefits />
       </div>
     )
   }
